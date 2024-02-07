@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34A7D2572B727C6D00BE9039 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A7D2562B727C6D00BE9039 /* Framework.swift */; };
+		34A7D2592B727EC100BE9039 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 34A7D2582B727EC100BE9039 /* Preview Content */; };
 		34BC2D4D2B7275AF00E68073 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 34BC2D4C2B7275AF00E68073 /* RealityKitContent */; };
 		34BC2D4F2B7275AF00E68073 /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC2D4E2B7275AF00E68073 /* TestApp.swift */; };
-		34BC2D512B7275AF00E68073 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC2D502B7275AF00E68073 /* ContentView.swift */; };
+		34BC2D512B7275AF00E68073 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC2D502B7275AF00E68073 /* FrameworkGridView.swift */; };
 		34BC2D532B7275AF00E68073 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC2D522B7275AF00E68073 /* ImmersiveView.swift */; };
 		34BC2D552B7275AF00E68073 /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 34BC2D542B7275AF00E68073 /* ImageBasedLighting.skybox */; };
 		34BC2D572B7275B200E68073 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BC2D562B7275B200E68073 /* Assets.xcassets */; };
@@ -28,10 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34A7D2562B727C6D00BE9039 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		34A7D2582B727EC100BE9039 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
 		34BC2D472B7275AF00E68073 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34BC2D4B2B7275AF00E68073 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		34BC2D4E2B7275AF00E68073 /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
-		34BC2D502B7275AF00E68073 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		34BC2D502B7275AF00E68073 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 		34BC2D522B7275AF00E68073 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		34BC2D542B7275AF00E68073 /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
 		34BC2D562B7275B200E68073 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -83,12 +87,14 @@
 			isa = PBXGroup;
 			children = (
 				34BC2D4E2B7275AF00E68073 /* TestApp.swift */,
-				34BC2D502B7275AF00E68073 /* ContentView.swift */,
+				34BC2D502B7275AF00E68073 /* FrameworkGridView.swift */,
 				34BC2D522B7275AF00E68073 /* ImmersiveView.swift */,
+				34A7D2562B727C6D00BE9039 /* Framework.swift */,
 				34BC2D542B7275AF00E68073 /* ImageBasedLighting.skybox */,
 				34BC2D562B7275B200E68073 /* Assets.xcassets */,
 				34BC2D5B2B7275B200E68073 /* Info.plist */,
 				34BC2D582B7275B200E68073 /* Preview Content */,
+				34A7D2582B727EC100BE9039 /* Preview Content */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -201,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34A7D2592B727EC100BE9039 /* Preview Content in Resources */,
 				34BC2D572B7275B200E68073 /* Assets.xcassets in Resources */,
 				34BC2D5A2B7275B200E68073 /* Preview Assets.xcassets in Resources */,
 				34BC2D552B7275AF00E68073 /* ImageBasedLighting.skybox in Resources */,
@@ -221,7 +228,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34BC2D512B7275AF00E68073 /* ContentView.swift in Sources */,
+				34A7D2572B727C6D00BE9039 /* Framework.swift in Sources */,
+				34BC2D512B7275AF00E68073 /* FrameworkGridView.swift in Sources */,
 				34BC2D4F2B7275AF00E68073 /* TestApp.swift in Sources */,
 				34BC2D532B7275AF00E68073 /* ImmersiveView.swift in Sources */,
 			);

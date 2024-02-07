@@ -11,7 +11,7 @@ import SwiftUI
 struct TestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FrameworkGridView()
         }
 
         ImmersiveSpace(id: "ImmersiveSpace") {
@@ -19,3 +19,4 @@ struct TestApp: App {
         }.immersionStyle(selection: .constant(.full), in: .full)
     }
 }
+ 
